@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: "node-eks:latest"
+        image: "nodeapp:latest"
         ports:
           - containerPort: 3000
 ---
